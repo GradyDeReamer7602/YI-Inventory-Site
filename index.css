@@ -5,3 +5,11 @@ button {
     color:white;
     font-size: 18 px;
   }
+  body {
+    background-color: grey;
+    height: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
