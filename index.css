@@ -3,8 +3,12 @@ button {
     border: 8px solid rgb(100, 4, 4);
     border-radius: 3px;
     color:white;
-    font-size: 18 px;
+    font-size: 18px;
   }
   body {
     background-color: grey;
+  }
+  h1{
+      color: black;
+      font-size: 28px;
   }
