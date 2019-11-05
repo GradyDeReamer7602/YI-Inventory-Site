@@ -13,3 +13,11 @@ button {
       font-size: 28px;
       text-align: center;
   }
+
+  .map{
+        border: 5px solid black; 
+        border-radius: 5px;
+        max-height: 400px;
+        min-width: 150px;
+        position: relative;
+  }
