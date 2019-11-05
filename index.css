@@ -1,7 +1,7 @@
 button {
     background-color:  black;
-    border: 5px solid rgb(100, 4, 4);
+    border: 8px solid rgb(100, 4, 4);
     border-radius: 3px;
     color:white;
-    font-size: 10px;
+    font-size: 18 px;
   }
