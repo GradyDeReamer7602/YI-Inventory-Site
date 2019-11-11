@@ -15,10 +15,18 @@
                 <input type="submit" value="search" class="searchbox">
                 
         </form>
-      <div class="clear"></div>
+        <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('Shelf A')">A</button>
+        <button class="btn" onclick="filterSelection('Shelf B')">B</button>
+        <button class="btn" onclick="filterSelection('Shelf C')">C</button>
+        <button class="btn" onclick="filterSelection('Shelf D')">D</button>
       </div>
     </div>
-    <div>
+    <div class="container">
+      <div class="filterDiv A">iRest</div>
+      <div class="filterDiv B">iRest 2</div> 
+    </div>
         <a href="https://docs.google.com/spreadsheets/d/1cIAuQYkKAOuLFlGcmWRubAFt91COukXJwxCmGLIfJw8/edit#gid=0" target="_blank"
         ><button type="button">Shelving Inventory w/ Map</button></a>
         <div>
