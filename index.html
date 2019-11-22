@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html>
- <head>
+
+<head>
   <link rel="stylesheet" href="index.css" />
-<!-- <link rel="html" href='about.html'> -->
+  <!-- <link rel="html" href='about.html'> -->
 </head>
+
 </html>
+
 <body>
 
-    <h1>Inventory</h1>
+  <h1>Inventory</h1>
 
-    <div>
-        <form method="get" target="_blank" action="http://www.google.com/search">
-                <input type="text" placeholder="Web Search" name="q" size="20" class="input">
-                <input type="submit" value="search" class="searchbox">
-                
-        </form>
-        <div id="myBtnContainer">
-        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-        <button class="btn" onclick="filterSelection('Shelf A')">A</button>
-        <button class="btn" onclick="filterSelection('Shelf B')">B</button>
-        <button class="btn" onclick="filterSelection('Shelf C')">C</button>
-        <button class="btn" onclick="filterSelection('Shelf D')">D</button>
-      </div>
+  <div>
+    <form method="get" target="_blank" action="http://www.google.com/search">
+      <input type="text" placeholder="Web Search" name="q" size="20" class="input">
+      <input type="submit" value="search" class="searchbox">
+
+    </form>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <select id="columnSelector">
+        <option value="">--Please choose an option--</option>
+      </select>
+      <button class="btn" onclick="filterSelection('Shelf A')">A</button>
+      <button class="btn" onclick="filterSelection('Shelf B')">B</button>
+      <button class="btn" onclick="filterSelection('Shelf C')">C</button>
+      <button class="btn" onclick="filterSelection('Shelf D')">D</button>
     </div>
-    <div class="container">
-      <div class="filterDiv A">iRest</div>
-      <div class="filterDiv B">iRest 2</div> 
-    </div>
-        <a href="https://docs.google.com/spreadsheets/d/1cIAuQYkKAOuLFlGcmWRubAFt91COukXJwxCmGLIfJw8/edit#gid=0" target="_blank"
-        ><button type="button">Shelving Inventory w/ Map</button></a>
-        <div>
-        <img class="map" src="./images/download.png" />
-        </div>
-      </div>
-      </body>
+  </div>
+  <div class="container">
+    <div class="filterDiv A">iRest</div>
+    <div class="filterDiv B">iRest 2</div>
+  </div>
+  <a href="https://docs.google.com/spreadsheets/d/1cIAuQYkKAOuLFlGcmWRubAFt91COukXJwxCmGLIfJw8/edit#gid=0"
+    target="_blank"><button type="button">Shelving Inventory w/ Map</button></a>
+  <div>
+    <img class="map" src="./images/download.png" />
+  </div>
+  </div>
+</body>
 </body>
 
 </html>
@@ -43,6 +49,5 @@
 
 </style>
 </head>
+
 <body>
-
-

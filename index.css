@@ -58,3 +58,11 @@ button {
   .btn.active:hover{
     background-color:black;
   }
+
+  option {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: red;
+    cursor: pointer;
+  }
