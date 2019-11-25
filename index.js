@@ -10,7 +10,14 @@
     <option value={currentItem}>{currentItem}</option>
   });
  */
-<option value="currentItem">currentItem</option>
-letter.map((currentItem) => {
-  <option value={currentItem}>{currentItem}</option>
-});
+var letters = ['a', 'b', 'c', 'd', 'e', 'f', 'returns'];
+
+
+var element = document.getElementById("columnSelector");
+
+
+
+
+
+
+

@@ -22,9 +22,19 @@
     <div>
       <select id="columnSelector">
         <option value="">--Please Choose a Shelf--</option>
-        <option value="A">Shelf A</option>
-        <option value="B">Shelf B</option>
+        <option value="">Shelf A</option>
+        <option value="">Shelf B</option>
       </select>
+      <p id="result"></p>
+      <script>
+        function GetProduct(){
+          var e = document.getElementById("columnSelector")
+          var result = e.options[e.selectedIndex].value;
+          document.getElementById("result").innerHTML = result;
+        }
+        </script>
+      </br>
+      		<button type="button" onclick="GetProduct()">Get Product</button>
     </div>
   </div>
   <a href="https://docs.google.com/spreadsheets/d/1cIAuQYkKAOuLFlGcmWRubAFt91COukXJwxCmGLIfJw8/edit#gid=0"
