@@ -10,11 +10,7 @@
     <option value={currentItem}>{currentItem}</option>
   });
  */
-const letters = ['a', 'b', 'c', 'd', 'e', 'f', 'returns'];
-let columnSelector = <option value="currentItem">currentItem</option>;
 <option value="currentItem">currentItem</option>
-letters.map((currentItem)=>{
+letter.map((currentItem) => {
   <option value={currentItem}>{currentItem}</option>
 });
-
-var element = document.getElementById("columnSelector");

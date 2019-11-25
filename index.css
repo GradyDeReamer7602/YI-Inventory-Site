@@ -5,6 +5,9 @@ button {
     color:white;
     font-size: 18px;
   }
+  form{
+    color:rgb(100, 4, 4);
+  }
   body {
     background-color: grey;
   }
@@ -21,48 +24,43 @@ button {
         min-width: 150px;
         position: relative;
   }
-  .show {
-    display: block;
-  }
-  .filterDiv {
-    float: left;
-    background-color: red;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;
-    display: none; 
-  }
-  .btn {
+ 
+  .select {
     border: none;
     outline: none;
     padding: 12px 16px;
-    background-color: red;
-    cursor: pointer;
+    background-color: rgb(100, 4, 4);
+    
   }
 
-  .container {
-    overflow: hidden;
-  }
+  
 
-  .btn:hover {
+  select:hover {
     background-color:black;
   }
 
-  .btn.active {
-    background-color: red;
+  select.active {
+    background-color:rgb(100, 4, 4);
     color: white;
   }
 
-  .btn.active:hover{
+  select.active:hover{
     background-color:black;
   }
 
-  option {
+  select {
+    color: white;
     border: none;
     outline: none;
     padding: 12px 16px;
-    background-color: red;
+    background-color: rgb(100, 4, 4);
     cursor: pointer;
+    display: block;
   }
+  option{
+    color: white;
+    display: block;
+  }
+ 
+
+  
